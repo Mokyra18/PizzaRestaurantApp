@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Detail"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/font_color"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asep"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="normal"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/location_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store: Cihampelas"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="normal"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/order_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesanan: Pepperoni Pizza"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="normal"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Detail"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/font_color"
+        android:textSize="20dp"/>
+
+    <CheckBox android:id="@+id/checkbox_ambil_sendiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:textSize="15dp"
+        android:text="Ambil Sendiri" />
+
+    <CheckBox android:id="@+id/checkbox_fast_delivery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:textSize="15dp"
+        android:text="Fast Delivery (Maksimal 30 menit pengiriman)"/>
+
+    <Button
+        android:id="@+id/done_id_button"
+        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/button_color"
+        app:cornerRadius="0dp"
+        app:strokeColor="@color/stroke_color"
+        app:strokeWidth="1dp"
+        android:text="Done" />
+
+
+
+</LinearLayout>

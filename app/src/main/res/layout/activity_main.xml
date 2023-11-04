@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:src="@drawable/rm_pizza_1"
+        android:layout_marginTop="50dp"
+        />
+
+    <TextView
+        android:id="@+id/store_id"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/font_color"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:text="Store" />
+
+    <Spinner
+        android:id="@+id/locations_spinner"
+        android:layout_width="290dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"/>
+
+    <TextView
+        android:id="@+id/name_id"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_marginLeft="60dp"
+        android:textStyle="bold"
+        android:textColor="@color/font_color"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:text="Your Name" />
+
+    <EditText
+        android:id="@+id/input_nama"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="290dp"
+        android:hint="Please fill your name"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/submit_id_button"
+        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:layout_marginLeft="60dp"
+        android:backgroundTint="@color/button_color"
+        app:cornerRadius="0dp"
+        app:strokeColor="@color/stroke_color"
+        app:strokeWidth="1dp"
+        android:text="Submit" />
+
+</LinearLayout>
