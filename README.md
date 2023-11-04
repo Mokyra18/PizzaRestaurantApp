@@ -17,7 +17,7 @@ Untuk mulai menggunakan aplikasi ini, ikuti langkah-langkah di bawah ini:
    - Jalankan perintah berikut untuk mengklon repositori ini:
 
      ```bash
-     git clone https://github.com/username/PizzaRestaurant.git
+     git clone https://github.com/Mokyra18/PizzaRestaurantApp.git
      ```
 
 2. **Buka Aplikasi:**
